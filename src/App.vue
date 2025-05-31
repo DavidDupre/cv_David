@@ -23,5 +23,5 @@ const ExperienceSection = defineAsyncComponent(() => import('./components/Experi
 const ProyectsSection = defineAsyncComponent(() => import('./components/Proyects.vue'));
 const ContactSection = defineAsyncComponent(() => import('./components/Contact.vue'));
 const FooterSection = defineAsyncComponent(() => import('./components/Footer.vue'));
-const ButtonPersonalizedSection = defineAsyncComponent(() => import('./components/buttonPersonalized.vue'));
+const ButtonPersonalizedSection = defineAsyncComponent(() => import('./components/ButtonPersonalized.vue'));
 </script>
