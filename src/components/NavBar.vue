@@ -1,6 +1,6 @@
 <template>
-  <header class="flex justify-end md:justify-center items-center p-6 bg-opacity-50 relative z-20">
-    <!-- <div class="text-[#1A2E66] text-3xl font-bold">Links</div> -->
+  <header class="flex justify-between md:justify-center items-center p-6 bg-opacity-50 relative z-20">
+    <div class="text-[#1A2E66] text-3xl font-bold md:hidden">Menú</div>
 
     <div class="md:hidden z-30">
       <button

@@ -85,7 +85,7 @@
         </div>
         <div class="lg:h-full md:flex">
           <div
-            class="felx w-full h-96 min-h-[24rem] lg:min-h-[none] lg:h-full items-center relative"
+            class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:h-full items-center relative"
           >
             <div
               class="absolute z-0 top-1/2 -translate-y-1/2 w/5/6 right-0 h-[calc(80%+20px bg-gradient-to-tr opacity-25 from[#570cac] to-primary blur-2xl)]"

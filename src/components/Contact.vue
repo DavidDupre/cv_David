@@ -1,5 +1,5 @@
 <template>
-  <section class="text-primary" id="contact">
+  <section class="text-primary mt-20" id="contact">
     <div class="px-4 xl:pl-16">
       <div class="text-center mb-10 flex justify-center items-center flex-col text-[#1A2E66]">
         <h2 class="text-4xl font-bold mb-3">Contacto</h2>

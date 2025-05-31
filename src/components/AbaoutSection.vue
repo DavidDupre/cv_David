@@ -1,5 +1,5 @@
 <template>
-  <section class="text-secondary" id="acercademi">
+  <section class="text-secondary mt-18" id="acercademi">
     <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
       <div>
         <h2 class="text-4xl font-bold text-[#1A2E66] text-left mb-8 ">Mi educacion</h2>
