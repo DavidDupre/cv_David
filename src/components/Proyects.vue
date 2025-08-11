@@ -118,7 +118,7 @@ const Proyect = ref([
   },
   {
     id: 5,
-    title: 'Prueba_Tecnica_davidDupre',
+    title: 'Ecommerse',
     image: react,
     description: 'Realizar pagos de productos tecnologicos a traves de un portal web',
     link: 'https://github.com/DavidDupre/ecommerce',
@@ -146,12 +146,12 @@ const Proyect = ref([
   },
   {
     id: 5,
-    title: 'ecommerce',
-    image: react,
+    title: 'Prueba_Tecnica_davidDupre',
+    image: java,
     description:
-      'Ecommerce de productos de tecnologia con opciones de pago(para pruebas, no reales)',
-    link: 'https://github.com/DavidDupre/ecommerce',
-    technologies: ['React', 'TypeScript', 'Java', 'NestJS'],
+      'Calcular la liquidación de seguros para asegurados, aplicando reglas de negocio específicas',
+    link: 'https://github.com/DavidDupre/Prueba_Tecnica_davidDupre',
+    technologies: ['Java', 'SpringBoot', 'MySQL', 'Maven'],
     category: 'Mobile App',
   },
 ]);
