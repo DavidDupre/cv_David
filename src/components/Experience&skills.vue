@@ -144,7 +144,7 @@ const Experience = ref([
     id: 2,
     name: 'Desarrollador',
     company: 'Soluciones 360°',
-    date: '2023 - 2025',
+    date: '2023 - 2024',
   },
 ]);
 </script>
