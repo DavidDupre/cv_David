@@ -1,30 +1,51 @@
 <template>
-  <section class="text-secondary mt-18" id="acercademi">
-    <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
+  <section
+    class="text-secondary mt-18"
+    id="acercademi"
+  >
+    <div
+      class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1"
+    >
       <div>
-        <h2 class="text-4xl font-bold text-[#1A2E66] text-left mb-8 ">Mi educacion</h2>
+        <h2 class="text-4xl font-bold text-[#1A2E66] text-left mb-8">Mi educacion</h2>
         <div class="space-y-8 py-8">
-          <div v-for="education in Education" ::key="education.id" class="flex center-items md:w-[80%] w-full rounded-xl bg-[#1A2E66] shadow-lg border border-secondary">
+          <div
+            v-for="education in Education"
+            ::key="education.id"
+            class="flex center-items md:w-[80%] w-full rounded-xl bg-[#1A2E66] shadow-lg border border-secondary"
+          >
             <div class="w-1/4">
-              <img src="https://img.icons8.com/ios-glyphs/60/ffffff/graduation-cap--v1.png" alt="education.icon"/>
+              <img
+                src="https://img.icons8.com/ios-glyphs/60/ffffff/graduation-cap--v1.png"
+                alt="education.icon"
+              />
             </div>
             <div class="w3/4 pl-4">
-              <h5 class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-white to-white lg:text-xl">
+              <h5
+                class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-white to-white lg:text-xl"
+              >
                 {{ education.institution }}
               </h5>
               <p class="text-white">{{ education.title }}</p>
-              <p class="text-white"> {{ education.year }}</p>
+              <p class="text-white">{{ education.year }}</p>
             </div>
           </div>
         </div>
       </div>
       <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full">
-        <h2 class="text-4xl font-bold text-[#1A2E66] md:text-center text-left mb-4">Acerca
+        <h2 class="text-4xl font-bold text-[#1A2E66] md:text-center text-left mb-4">
+          Acerca
           <span class="text-primary bg-clip-text bg-gradient-to-r">de</span>
           Mi
         </h2>
-        <p class="text-base lg:text-lg mt-8 py-8 text-[#4A4A4A]">Ingeniero de Software con 3 años de experiencia en desarrollo frontend, especializado en frameworks modernos como Angular y Vue.js.
-        Apasionado por crear interfaces de usuario responsivas y eficientes utilizando tecnologías como TypeScript, JavaScript y Bootstrap.</p>
+        <p class="text-base lg:text-lg mt-8 py-8 text-[#4A4A4A]">
+          Soy un Desarrollador Full Stack con más de 3 años de experiencia creando aplicaciones web.
+          Me especializo en back-end con Golang, Java y Spring Boot, y en front-end con Vue.js,
+          React y Angular. Mi experiencia incluye la integración de APIs REST, gestión de bases de
+          datos como PostgreSQL y MySQL, y el despliegue en la nube con AWS. Me apasiona desarrollar
+          software de calidad, optimizar el rendimiento y seguir las mejores prácticas para entregar
+          soluciones escalables y seguras.
+        </p>
         <div class="grid grid-cols-3 gap-4 max-w-lg pt-8 flex items-center justify-center">
           <div class="text-center rounded-xl bg-[#1A2E66] shadow-lg border border-secondary p-3">
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">10</h3>
@@ -51,7 +72,7 @@ const Education = ref([
     id: 1,
     title: 'Ingeniería de Software',
     institution: 'Politécnico GranColombiano',
-    year: '2022 - Actualidad',
+    year: '2022 - 2025',
   },
   {
     id: 2,

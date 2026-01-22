@@ -21,10 +21,11 @@
             </h1>
           </div>
           <p class="text-secondary pt-8 text-center lg:text-left mx-auto max-w-xl">
-            <span class="font-semibold text-[#1A2E66]">Mi filosofía:</span>
-            Código limpio, diseño intuitivo y soluciones escalables. Cuando no estoy programando,
-            probablemente esté aprendiendo una nueva tecnología o mejorando mis habilidades
-            existentes.
+            <span class="font-semibold text-[#1A2E66]">Soy:</span>
+            Desarrollador Full Stack especializado en microservicios y tecnologías modernas como
+            Golang, Java y Spring Boot en el back-end, y Vue.js, React y Angular en el front-end.
+            Trabajo con APIs REST, bases de datos como PostgreSQL y MySQL, y despliego aplicaciones
+            en AWS. Me enfoco en crear soluciones escalables, seguras y de alto rendimiento.
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
