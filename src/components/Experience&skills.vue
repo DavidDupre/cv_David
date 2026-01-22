@@ -131,6 +131,11 @@ const Skills = ref([
     name: 'Next.js',
     width: '60%',
   },
+  {
+    id: 13,
+    name: 'GoLang',
+    width: '60%',
+  },
 ]);
 
 const Experience = ref([
