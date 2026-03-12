@@ -143,7 +143,7 @@ const Experience = ref([
     id: 1,
     name: 'Desarrollador',
     company: 'Linktic S.A.S',
-    date: '2024 - Actualidad',
+    date: '2024 - 2026',
   },
   {
     id: 2,
